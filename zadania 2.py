@@ -111,10 +111,10 @@ for x in range(5):
 print(''.join(letter))
 
 # 10
-n_3 = float(input('Podaj liczbę\n'))
+n_4 = float(input('Podaj liczbę\n'))
 
-if n_3 < 0:
+if n_4 < 0:
     print('Brak rozwiązań w zbiorze liczb rzeczywistych')
 
 else:
-    print(math.sqrt(n_3))
+    print(math.sqrt(n_4))
