@@ -20,7 +20,7 @@ save_file('numbers.txt', numbers)
 print(open_file('numbers.txt'), end='\n\n')
 
 # 3
-save_file('text.txt', 'lorem ipsum\n' * 10)
+save_file('text.txt', ''.join(['lorem ipsum\n' for txt in range(10)])[:-1])
 print(open_file('text.txt'), end='\n\n')
 
 
