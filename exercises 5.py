@@ -1,3 +1,6 @@
+print('# 1')
+
+
 # 1
 
 
@@ -46,7 +49,9 @@ Sweater.sweater_kind = 'z golfem'
 
 sweater = Sweater()
 print(sweater.show_sweater_info(), clothe.show_clothes_info(),
-      clothe.show_name())
+      clothe.show_name(), end='\n\n')
+
+print('# 2, 3')
 
 
 # 2, 3
@@ -91,11 +96,13 @@ class Square:
 square_1 = Square(2)
 print(square_1.side)
 square_2 = Square(5) + square_1
-print(square_2.side)
+print(square_2.side, end='\n\n')
 print(square_1 >= square_2)
 print(square_1 > square_2)
 print(square_1 <= square_2)
-print(square_1 < square_2)
+print(square_1 < square_2, end='\n\n')
+
+print('# 4')
 
 
 # 4
@@ -107,18 +114,20 @@ class Point:
 
 print(Point.counter)
 obj_1 = Point()
-print(obj_1.counter)
+print(obj_1.counter, end='\n\n')
 obj_1.counter += 1
 print(obj_1.counter)
-print(Point.counter)
+print(Point.counter, end='\n\n')
 Point.counter = 5
 print(Point.counter)
-print(obj_1.counter)
+print(obj_1.counter, end='\n\n')
 obj_2 = Point()
 obj_2.counter = 2
 print(Point.counter)
 print(obj_1.counter)
-print(obj_2.counter)
+print(obj_2.counter, end='\n\n')
+
+print('# 5')
 
 
 # 5
@@ -140,7 +149,9 @@ employee = Employee()
 manager = Manager()
 print(isinstance(employee, Employee), isinstance(manager, Manager),
       issubclass(Employee, Person),
-      issubclass(Manager, Employee))
+      issubclass(Manager, Employee), end='\n\n')
+
+print('# 6, 7')
 
 
 # 6, 7
