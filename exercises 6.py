@@ -98,4 +98,9 @@ def function_5(array, vertically):
 
 
 # 9
-array_6 = numpy.arange(5, 130, 5).reshape((5, 5))
+def arithmetic_progression(initial_term, common_difference):
+    return [term for term in range(initial_term, initial_term + 25 *
+                                   common_difference, common_difference)]
+
+
+array_6 = numpy.array(arithmetic_progression(5, 5)).reshape((5, 5))
